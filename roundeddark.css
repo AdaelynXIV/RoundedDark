@@ -4,8 +4,11 @@
     --lightgrey:#323438;
     --darkgrey:#17181a;
     --red:#eb4148;
+    --blurple-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(87,106,237,1) 100%);
+    --darkgrey-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(23,24,26,1) 100%);
 
     --radius: 16px;
+    --spacing: 11px;
 }
 
 /* Top Bar */
@@ -79,18 +82,27 @@
 
 /* Chat Content */
 .chatContent-3KubbW {background-color:var(--grey);}
+.chat-2ZfjoI{
+    border-radius:var(--radius);
+    margin:5px var(--spacing) var(--spacing) var(--spacing);
+}
 
 /* Sidebar */
 .sidebar-1tnWFu,
 .content-1SgpWY
 {background:var(--darkgrey);}
-.panels-3wFtMD{border-radius:0px 0px 0px var(--radius)!important}
-.privateChannels-oVe7HL{border-radius: var(--radius) 0px 0px 0px!important;}
+.panels-3wFtMD{border-radius:0px 0px var(--radius) var(--radius)!important}
+.privateChannels-oVe7HL{
+    border-radius: var(--radius) var(--radius) 0px 0px!important;
+}
 .scroller-WSmht3 {background-color:var(--grey);}
 .scroller-3X7KbA{background-color:var(--darkgrey);}
 
 /* Profile */
-.panels-3wFtMD {background-color:var(--grey);}
+.panels-3wFtMD {
+    background-color:var(--grey);
+    margin-bottom:var(--spacing);
+}
 .withTagAsButton-OsgQ9L {border-radius:var(--radius);}
 .withTagAsButton-OsgQ9L:hover {border-radius:var(--radius);}
 .button-12Fmur.enabled-9OeuTA:hover{border-radius:var(--radius);}
@@ -99,12 +111,15 @@
     border-radius:var(--radius);
 }
 .button-12Fmur{margin-right:5px}
+.sidebar-1tnWFu{margin-top:5px;}
+.wrapper-1_HaEi{margin-top:1px;}
+.avatarWrapper-1B9FTW{margin-right:0px;}
 
 /* Activity */
 .activityPanel-9icbyU {
     border-bottom:none;
-    background-color:var(--darkgrey);
-    /*border-top-left-radius:var(--radius);*/
+    background: var(--blurple-gradient);
+    border-top-left-radius:var(--radius);
     border-top-right-radius:var(--radius);
     height:16px;
     overflow: hidden;
@@ -127,41 +142,6 @@
 	 overflow: hidden;
      padding:10px;
 }
-.activityPanel-9icbyU::before {
-	 content: '';
-	 position: absolute;
-	 z-index: -2;
-	 left: -50%;
-	 top: -50%;
-	 width: 400%;
-	 height: 200%;
-	 background-color: var(--blurple);
-	 background-repeat: no-repeat;
-	 background-size: 50% 50%, 50% 50%;
-	 background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-	 background-image: linear-gradient(var(--blurple),var(--blurple)), linear-gradient(var(--blurple), var(--blurple)), linear-gradient(var(--blurple), var(--blurple) linear-gradient(var(--blurple), var(--blurple)));
-	 animation: rotate 8s linear infinite;
-     transition: all .2s ease-in;
-}
-.activityPanel-9icbyU::after {
-	 content: '';
-	 position: absolute;
-	 z-index: -1;
-	 left: 4px;
-	 top: 4px;
-	 width: calc(100% - 8px);
-	 height: calc(100% - 8px);
-	 background: var(--darkgrey);
-	 border-top-right-radius: 14px;
-}
-
-@keyframes rotate {
-	100% {
-		transform: rotate(1turn);
-	}
-}
-
-
 
 /* Friends List */
 .container-ZMc96U{background-color:var(--grey)!important}
@@ -218,6 +198,3 @@
     20% {left: 100%}
     100% {left: 100%}
 }
-
-
-
