@@ -1,0 +1,33 @@
+/**
+ * @name Rounded Dark
+ * @author Adaelyn
+ * @version 1.0.0
+ * @description Yet another (rounded) Dark Discord Theme.
+ * @source https://github.com/SaenaiNL/RoundedDark
+*/
+
+@import url('https://saenainl.github.io/RoundedDark/roundeddark.css');
+
+/* Customizable Variables */
+:root {
+    --blurple: #576aed;
+    --grey:#252629;
+    --lightgrey:#323438;
+    --darkgrey:#17181a;
+    --red:#eb4148;
+    --blurple-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(87,106,237,1) 70%);
+    --darkgrey-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(23,24,26,1) 100%);
+
+    --radius: 16px;
+    --spacing: 11px;
+}
+
+/* 'Folder Icon bug'™ is now a feature, if you wish to remove this; or if it breaks one of your plug-ins, remove everything under here: */
+.folderIconWrapper-1oRIZr{
+    background: url("https://i.imgur.com/IWDKX4z.png");
+    background-repeat:no-repeat;
+    background-blend-mode:overlay;
+    background-position:center;
+}
+.expandedFolderIconWrapper-3RwQpD,
+.closedFolderIconWrapper-3tRb2d{display:none;}
