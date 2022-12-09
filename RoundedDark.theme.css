@@ -8,6 +8,12 @@
 
 @import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
 
+/* #  Plugin Fixes/Edits  # */
+/* Uncomment a plugin Import URL if you use a plugin that's listed here */
+
+/* Channel Tabs: */
+/*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
+
 /* Customizable Variables */
 :root {
     --blurple: #576aed;
