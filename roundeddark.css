@@ -132,7 +132,15 @@
     background-color:var(--grey);
     margin-bottom:var(--spacing);
 }
-.withTagAsButton-OsgQ9L {border-radius:var(--radius);}
+.withTagAsButton-OsgQ9L,
+.userPopoutOuter-3AVBmJ,
+.userPopoutInner-1hXSeY,
+.bannerSVGWrapper-qc0szY,
+.userPopoutInner-1hXSeY:before,
+.profileBadges-31rDHI,
+.userPopoutOverlayBackground-dKOOda, .inline,
+.fakeActivityIcon-KeXVoI
+{border-radius:var(--radius)!important;}
 .withTagAsButton-OsgQ9L:hover {border-radius:var(--radius);}
 .button-12Fmur.enabled-9OeuTA:hover{border-radius:var(--radius);}
 .button-12Fmur[aria-checked='true']{
@@ -185,6 +193,72 @@
     background-color:var(--lightgrey)!important;
     border-radius:var(--radius)!important;
 }
+
+/* Modal Edits */
+.quickswitcher-pKcM9U, 
+.input-3r5zZY,
+.result-u66Ywh[aria-selected=true],
+.scroller-2qwVWY
+{border-radius:var(--radius);}
+.quickswitcher-pKcM9U{background:var(--grey);}
+.scroller-2qwVWY{
+    background:var(--darkgrey);
+    padding:8px;
+}
+
+/* Emotes */
+.contentWrapper-3vHNP2,
+.categoryItemDefaultCategorySelected-2YeRUu,
+.categoryItemDefaultCategory-3haEDq:hover,
+.emojiItem-277VFM:hover,
+.emojiItemSelected-2Lg50V
+{border-radius:var(--radius)!important;}
+
+/* Settings Page */
+.sidebarRegionScroller-FXiQOh,
+.accountProfileCard-lbN7n-
+{background:var(--darkgrey);}
+.contentRegionScroller-2_GT_N,
+.background-3d_SjE, .fieldList-in8WkP,
+.root-g14mjS
+{background:var(--grey);}
+.button-f2h6uQ, 
+.accountProfileCard-lbN7n-,
+.item-3XjbnG:hover,
+.swatch-efj8wq,
+.customColorPicker-C_jddW,
+.saturation-CLQHFD > div,
+.saturation-white,
+.saturation-black,
+.inputDefault-3FGxgL,
+.suggestedColor-2q1U7c,
+.container-20TyK0,
+.limitedBackground-2ogRHb,
+.limitedFeatureBorder-hpm0GQ,
+.root-g14mjS, 
+.file-input, 
+.optionBox-1UOevl, 
+.root-g14mjS, 
+.categoryFade-3RRG67,
+.result-pzZrwj > img, .result-pzZrwj > .gif-2kTiNB,
+.searchBar-3aIzc-,
+.result-pzZrwj:hover,
+.radioBar-3w9XY-, .item-2idW98,.assetsLargeImageUserPopoutV2-9ksyvz,
+.userProfileModalInner-3fh3QA:before,
+.badgeList-2pMvZX,
+.assetsLargeImageProfileV2-2nujZI
+{border-radius:var(--radius)!important;}
+.top-K_jibn .item-3XjbnG{
+    border-bottom:0px;
+    margin-bottom:16px;
+    padding:8px;
+}
+.searchBar-2aylmZ, .selected-g-kMVV{
+    padding:8px;
+    display:inline-flex;
+    align-items:center;
+}
+.tabBarItem-3VvT2z{height:inherit!important;}
 
 /* ## Plug-ins ## */
 /* Better Discord */
