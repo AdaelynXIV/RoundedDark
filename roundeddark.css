@@ -30,6 +30,19 @@
     border-radius:var(--radius)!important;
     margin-bottom:8px;
 }
+.clickable-28SzVr:hover .layout-1qmrhw,
+.selected-1-Z6gm .layout-1qmrhw,
+.container-1NXEtd
+{border-radius:var(--radius)!important;}
+.searchBar-jGtisZ{
+    border-radius:var(--radius);
+    padding:3px;
+    display: inline-flex;
+    align-items: center; 
+}
+.animatedContainer-2laTjx, .header-3OsQeK{
+    border-radius:var(--radius) var(--radius) 0px 0px;
+}
 
 /*.membersGroup-2eiWxl + .member-2gU6Ar{
     border-radius:16px!important;
@@ -37,7 +50,8 @@
 /* Direct Messages */
 .selected-3veCBZ, 
 .container-32HW5s:hover,
-.container-32HW5s, .searchBarComponent-3N7dCG
+.container-32HW5s, .searchBarComponent-3N7dCG,
+.anchor-1MIwyf
 {border-radius:var(--radius)!important;}
 .title-31SJ6t, .searchBar-3TnChZ
 {background:var(--grey)!important;}
@@ -82,9 +96,14 @@
 
 /* Chat Content */
 .chatContent-3KubbW {background-color:var(--grey);}
-.chat-2ZfjoI{
+.chat-2ZfjoI, .container-2cd8Mz{
     border-radius:var(--radius);
     margin:5px var(--spacing) var(--spacing) var(--spacing);
+}
+
+/* Friends */
+.peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover{
+    border-radius:var(--radius);
 }
 
 /* Sidebar */
@@ -97,6 +116,16 @@
 }
 .scroller-WSmht3 {background-color:var(--grey);}
 .scroller-3X7KbA{background-color:var(--darkgrey);}
+
+/* #Folder Icon Bug as a Feature */
+.folderIconWrapper-1oRIZr{
+    background: url("https://i.imgur.com/IWDKX4z.png");
+    background-repeat:no-repeat;
+    background-blend-mode:overlay;
+    background-position:center;
+}
+.expandedFolderIconWrapper-3RwQpD,
+.closedFolderIconWrapper-3tRb2d{display:none;}
 
 /* Profile */
 .panels-3wFtMD {
@@ -162,6 +191,7 @@
 .bd-notice{
     border-radius:var(--radius)!important;
     margin-right:var(--spacing);
+    background:var(--blurple)!important;
 }
 /* Channel Tabs */
 #channelTabs-container{
