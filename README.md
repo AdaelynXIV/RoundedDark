@@ -22,3 +22,9 @@ Yet another (rounded) Dark Discord Theme.
 ## Plugin Support:
 (These are a list of plug-ins that are affected to fit the theme)
 - Channel Tabs
+
+---
+
+#### [Latest Download](https://github.com/AdaelynXIV/RoundedDark/releases)
+
+
