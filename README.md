@@ -3,6 +3,8 @@ Yet another (rounded) Dark Discord Theme.
 
 ## Features:
 - Fully Rounded UI design.
+- Easily customizable values and colors.
+
 - 'Folder Icon bug'™ is now a feature, if you wish to remove this; or if it breaks one of your plug-ins, remove:
 ```css
 /* #Folder Icon Bug as a Feature */
