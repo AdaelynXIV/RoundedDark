@@ -1,4 +1,4 @@
 .platform-win .typeWindows-2-g3UY{top: 55px!important;}
 #channelTabs-container{padding:var(--spacing) 8px 1px 8px!important;}
-.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:7px!important;}
-.wrapper-1_HaEi{margin-top:calc(7px - 4px)!important;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:calc(var(--spacing) - 9px)!important;}
+.wrapper-1_HaEi{margin-top:calc((var(--spacing) - 9px) - 4px)!important;}
