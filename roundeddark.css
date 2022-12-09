@@ -264,20 +264,7 @@ a[href="/store"] .avatarWithText-1tTt2S{
     z-index: 2;
 }
 .interactiveSelected-29CP8y a[href="/store"]:before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
-    background-size: 200% 200%;
-    animation: gradient-bg 5s ease infinite;
-    border-radius:16px;
-    color:white;
-    opacity:1;
-    transition: all 1s ease-in-out; 
+    opacity:1!important;
 }
 a[href="/store"]:before{
     position: absolute;
