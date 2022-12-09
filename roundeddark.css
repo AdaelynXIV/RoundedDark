@@ -158,6 +158,11 @@
 }
 
 /* ## Plug-ins ## */
+/* Better Discord */
+.bd-notice{
+    border-radius:var(--radius)!important;
+    margin-right:var(--spacing);
+}
 /* Channel Tabs */
 #channelTabs-container{
     background:var(--darkgrey)!important;
