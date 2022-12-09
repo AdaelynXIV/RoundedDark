@@ -95,11 +95,12 @@
 .channelTextArea-1FufC0{background-color:transparent;}
 
 /* Chat Content */
-.chatContent-3KubbW {background-color:var(--grey);}
-.chat-2ZfjoI, .container-2cd8Mz{
+.chatContent-3KubbW, .scroller-29cQFV {background-color:var(--grey);}
+.chat-2ZfjoI, .container-2cd8Mz, .applicationStore-2nk7Lo{
     border-radius:var(--radius);
     margin:5px var(--spacing) var(--spacing) var(--spacing);
 }
+.container--8P6Tr{border-radius:var(--radius);}
 
 /* Friends */
 .peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover{
@@ -259,6 +260,47 @@
     align-items:center;
 }
 .tabBarItem-3VvT2z{height:inherit!important;}
+a[href="/store"] .avatarWithText-1tTt2S{
+    z-index: 2;
+}
+.interactiveSelected-29CP8y a[href="/store"]:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+    background-size: 200% 200%;
+    animation: gradient-bg 5s ease infinite;
+    border-radius:16px;
+    color:white;
+    opacity:1;
+    transition: all 1s ease-in-out; 
+}
+a[href="/store"]:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+    background-size: 200% 200%;
+    animation: gradient-bg 5s ease infinite;
+    border-radius:16px;
+    color:white;
+    opacity:0;
+    transition: all 1s ease-in-out;  
+}
+a[href="/store"]:hover:before{
+    opacity:1;
+}
+.linkButton-2NshQj{padding-right:0px;}
+
+
 
 /* ## Plug-ins ## */
 /* Better Discord */
@@ -306,4 +348,16 @@
     0% {left: -100px}
     20% {left: 100%}
     100% {left: 100%}
+}
+
+@keyframes gradient-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
