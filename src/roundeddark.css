@@ -52,6 +52,8 @@
 /*.membersGroup-2eiWxl + .member-2gU6Ar{
     border-radius:16px!important;
 } */
+/* Embeds */
+.wrapper-1HIH0j, .embedWrapper-1MtIDg, .animatedContainer-2laTjx{border-radius:var(--radius);}
 /* Search */
 .searchAnswer-23w-CH {
     border-top-right-radius:var(--radius);
