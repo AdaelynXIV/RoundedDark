@@ -299,6 +299,10 @@ a[href="/store"]:hover:before{
     margin-right:var(--spacing);
     background:var(--blurple)!important;
 }
+#bd-notices{
+	position:absolute;
+}
+.bd-notice-content{padding:16px;}
 /* Channel Tabs */
 #channelTabs-container{
     background:var(--darkgrey)!important;
