@@ -70,11 +70,12 @@
     border-top-right-radius:var(--radius);
     border-top-left-radius:var(--radius);
 }
+
 .searchAnswer-23w-CH > span > span {padding-right:2px;}
 .searchFilter-2UfsDk > span > span {padding-left:2px;}
 .searchHeader-1r_ZSh{background:var(--darkgrey);}
 .scroller-3iiyhZ, .channelName-3w2Y3c, .searchResultsWrap-5RVOkx{background:var(--grey);}
-.searchResult-O9NDji, .button-cfOvv-{border-radius:var(--radius);}
+.searchResult-O9NDji, .button-cfOvv-, .container-2McqkF{border-radius:var(--radius);}
 .searchResult-O9NDji{background:var(--lightgrey);}
 
 /* Direct Messages */
