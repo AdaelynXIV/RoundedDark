@@ -33,7 +33,20 @@
 .animatedContainer-2laTjx, .header-3OsQeK{
     border-radius:var(--radius) var(--radius) 0px 0px;
 }
-
+/* Forum */
+.list-3FIpnh{background:var(--grey);}
+.container-2qVG6q{
+	background:var(--lightgrey);
+	border-radius:var(--radius);
+}
+.container-JhuCwn{
+	background:var(--darkgrey);
+	border-radius:var(--radius);
+}
+.container-3XgAHv{
+	margin:var(--spacing);
+	border-radius:var(--radius);
+}
 /*.membersGroup-2eiWxl + .member-2gU6Ar{
     border-radius:16px!important;
 } */
