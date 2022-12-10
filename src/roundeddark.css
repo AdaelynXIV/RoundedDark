@@ -45,8 +45,10 @@
 }
 .container-3XgAHv{
 	margin:var(--spacing);
+	margin-left: calc(0px - (var(--spacing) - 3px))
 	border-radius:var(--radius);
 }
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU{border-radius:var(--radius);}
 /*.membersGroup-2eiWxl + .member-2gU6Ar{
     border-radius:16px!important;
 } */
