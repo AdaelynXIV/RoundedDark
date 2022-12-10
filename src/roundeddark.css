@@ -292,7 +292,7 @@ a[href="/store"]:hover:before{
 }
 .linkButton-2NshQj{padding-right:0px;}
 .sidebarRegion-1VBisG{margin:var(--spacing);}
-.sidebarRegionScroller-FXiQOh, .contentTransitionWrap-1YD530{border-radius:var(--radius);}
+.sidebarRegionScroller-FXiQOh, .contentTransitionWrap-1YD530, .contentRegionScroller-2_GT_N {border-radius:var(--radius);}
 .contentRegion-3HkfJJ{margin:var(--spacing);margin-left:0px;border-radius:var(--radius);}
 .standardSidebarView-E9Pc3j{background:var(--lightgrey);}
 
