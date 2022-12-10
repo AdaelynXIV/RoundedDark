@@ -291,8 +291,10 @@ a[href="/store"]:hover:before{
     opacity:1;
 }
 .linkButton-2NshQj{padding-right:0px;}
-
-
+.sidebarRegion-1VBisG{margin:var(--spacing);}
+.sidebarRegionScroller-FXiQOh, .contentTransitionWrap-1YD530{border-radius:var(--radius);}
+.contentRegion-3HkfJJ{margin:var(--spacing);margin-left:0px;border-radius:var(--radius);}
+.standardSidebarView-E9Pc3j{background:var(--lightgrey);}
 
 /* ## Plug-ins ## */
 /* Better Discord */
