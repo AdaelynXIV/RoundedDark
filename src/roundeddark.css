@@ -45,7 +45,7 @@
 }
 .container-3XgAHv{
 	margin:var(--spacing);
-	margin-left: calc(0px - (var(--spacing) - 3px))
+	margin-left: calc(0px - (var(--spacing) - 3px));
 	border-radius:var(--radius);
 }
 .chat-2ZfjoI.threadSidebarOpen-1LSXvU{border-radius:var(--radius);}
