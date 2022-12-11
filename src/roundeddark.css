@@ -44,6 +44,14 @@
 .animatedContainer-2laTjx, .header-3OsQeK{
     border-radius:var(--radius) var(--radius) 0px 0px;
 }
+.selected-2TbFuo .icon-2W8DHg {
+    color:var(--blurple);
+}
+.modeUnread-3Cxepe {
+    border-left: 3px solid white;
+    border-radius: 3px;
+}
+.unread-36eUEm{display:none;}
 /* Forum */
 .list-3FIpnh{background:var(--grey);}
 .container-2qVG6q{
@@ -200,6 +208,15 @@
 }
 .scroller-WSmht3 {background-color:var(--grey);}
 .scroller-3X7KbA{background-color:var(--darkgrey);}
+.wrapper-1_HaEi{
+    border-radius:16px;
+    margin: var(--spacing);
+}
+.scroller-3X7KbA {
+    background:var(--grey); 
+    border-radius:16px;
+    padding-top:var(--spacing);
+}
 
 /* #Folder Icon Bug as a Feature */
 .folderIconWrapper-1oRIZr{
