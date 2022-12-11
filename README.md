@@ -1,7 +1,7 @@
 # RoundedDark
 Yet another (rounded) Dark Discord Theme.
 
-![Theme Preview](https://adaelyn.needs.rest/r/Discord_m1AhSCaGag.png "Theme Preview")
+![Theme Preview](https://adaelyn.needs.rest/r/Discord_tVlCsJ9S9w.png "Theme Preview")
 
 ## Features:
 - Fully Rounded UI design.
