@@ -11,6 +11,8 @@ Yet another (rounded) Dark Discord Theme.
 ## Plugin Support:
 (These are a list of plug-ins that are affected to fit the theme)
 - Channel Tabs
+![ChannelTabs Preview](https://adaelyn.needs.rest/r/Discord_4e3F9gyi2f.png "ChannelTabs Preview")
+*(A preview of the ChannelTabs implementation)*
 
 ---
 
