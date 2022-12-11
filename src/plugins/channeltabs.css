@@ -1,4 +1,10 @@
-.platform-win .typeWindows-2-g3UY{top: calc(var(--spacing) + 55px)!important; left:calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));} 
-#channelTabs-container{padding:var(--spacing) 8px 1px 8px!important;}
-.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:calc(var(--spacing) - 4px)!important;}
-.wrapper-1_HaEi{margin-top:calc((var(--spacing) - 4px) - 4px)!important;}
+.platform-win .typeWindows-2-g3UY{top: calc(var(--spacing) + 66px)!important; left:calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));} 
+#channelTabs-container{padding:7px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);}
+.wrapper-1_HaEi{margin-top:var(--spacing);}
+.app-2CXKsg{background:var(--blurple);}
+#channelTabs-container{
+    border-radius:var(--radius);
+    margin-bottom:calc(var(--spacing) - 2px);
+}
+#channelTabs-settingsMenu{margin-right:15px!important;}
