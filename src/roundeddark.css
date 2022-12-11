@@ -451,10 +451,9 @@ a[href="/store"]:hover:before{
 .sidebar-1tnWFu {margin-top:var(--spacing);}
 .wrapper-1_HaEi {margin-top:var(--spacing);}
 .tutorialContainer-1pL9QS{padding-top:7px;}
-.platform-win .typeWindows-2-g3UY{
-    top:calc(var(--spacing) + 1px);
-    left:calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 1px));
-	
+.platform-win .typeWindows-2-g3UY {
+    top: calc(var(--spacing) + 12px);
+    left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
 }
 .platform-win .winButtonClose-3Q8ZH5 {
     border-top-right-radius: var(--radius);
