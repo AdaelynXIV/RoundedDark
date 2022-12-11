@@ -1,9 +1,8 @@
 /* Restore Old Titlebar */
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
 :root {
-	--font-primary: 'Karla', sans-serif;
-	--font-display: var(--font-primary) !important;
+    --font-display: var(--font-primary) !important;
     --scrollbar-thin-thumb: var(--darkgrey);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: var(--darkgrey);

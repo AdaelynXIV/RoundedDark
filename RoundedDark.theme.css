@@ -15,7 +15,10 @@
 /*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
 
 /* Customizable Variables */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
 :root {
+    --font-primary: 'Karla', sans-serif;
+    
     --blurple: #576aed;
     --grey:#252629;
     --lightgrey:#323438;
@@ -28,12 +31,24 @@
     --spacing: 11px;
 }
 
-/* 'Folder Icon bug'™ is now a feature, if you wish to remove this; or if it breaks one of your plug-ins, remove everything under here: */
-.folderIconWrapper-1oRIZr{
-    background: url("https://i.imgur.com/IWDKX4z.png");
-    background-repeat:no-repeat;
-    background-blend-mode:overlay;
-    background-position:center;
+/* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
+/* If you wish to remove the Folder Icons; or if it breaks one of your plug-ins, remove everything under here: */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
 }
-.expandedFolderIconWrapper-3RwQpD,
-.closedFolderIconWrapper-3tRb2d{display:none;}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
