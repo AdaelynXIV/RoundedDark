@@ -1,7 +1,7 @@
 /**
  * @name Rounded Dark
  * @author Adaelyn
- * @version 1.1.0
+ * @version 1.2.0
  * @description Yet another (rounded) Dark Discord Theme.
  * @source https://github.com/AdaelynXIV/RoundedDark
 */
@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
 :root {
     --font-primary: 'Karla', sans-serif;
-    
+
     --blurple: #576aed;
     --grey:#252629;
     --lightgrey:#323438;
