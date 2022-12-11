@@ -98,6 +98,11 @@
 } */
 /* Embeds */
 .wrapper-1HIH0j, .embedWrapper-1MtIDg, .animatedContainer-2laTjx{border-radius:var(--radius);}
+.mentioned-Tre-dv{
+    border: 2px solid #f9a633;
+    border-radius: 16px;
+}
+.mentioned-Tre-dv:before{display:none;}
 /* Search */
 .searchAnswer-23w-CH {
     border-top-right-radius:var(--radius);
