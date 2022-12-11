@@ -12,6 +12,15 @@
 }
 
 
+/* Pop-out Window-Effect */
+#app-mount{background:var(--blurple);}
+.appDevToolsWrapper-1QxdQf{
+    margin: var(--spacing);
+    border-radius: var(--radius);
+}
+.app-2CXKsg, .container-1eFtFS{border-radius:var(--radius);}
+.bg-1QIAus{display:none;}
+
 /* Top Bar */
 .typeWindows-2-g3UY,
 .container-1eFtFS
