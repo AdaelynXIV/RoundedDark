@@ -74,7 +74,7 @@
     border: 0;
 
     --transparency: .4;
-    border-radius: 16px;
+    border-radius: var(--radius);
 }
 .role-2TIOKu .roleRemoveIcon-387wKV {
     margin: 0;
@@ -108,7 +108,7 @@
 .wrapper-1HIH0j, .embedWrapper-1MtIDg, .animatedContainer-2laTjx{border-radius:var(--radius);}
 .mentioned-Tre-dv{
     border-left: 2px solid #f9a633;
-    border-radius: 16px;
+    border-radius:var(--radius);
 }
 .mentioned-Tre-dv:before{display:none;}
 /* Search */
@@ -209,12 +209,12 @@
 .scroller-WSmht3 {background-color:var(--grey);}
 .scroller-3X7KbA{background-color:var(--darkgrey);}
 .wrapper-1_HaEi{
-    border-radius:16px;
+    border-radius:var(--radius);
     margin: var(--spacing);
 }
 .scroller-3X7KbA {
     background:var(--grey); 
-    border-radius:16px;
+    border-radius:var(--radius);
     padding-top:var(--spacing);
 }
 
@@ -377,7 +377,7 @@ a[href="/store"]:before{
     background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
     background-size: 200% 200%;
     animation: gradient-bg 5s ease infinite;
-    border-radius:16px;
+    border-radius:var(--radius);
     color:white;
     opacity:0;
     transition: all 1s ease-in-out;  
