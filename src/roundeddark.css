@@ -53,8 +53,11 @@
 .animatedContainer-2laTjx, .header-3OsQeK{
     border-radius:var(--radius) var(--radius) 0px 0px;
 }
-.selected-2TbFuo .icon-2W8DHg {
-    color:var(--blurple);
+.selected-2TbFuo .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg{
+    color:white;
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--blurple);
 }
 .modeUnread-3Cxepe {
     border-left: 3px solid white;
