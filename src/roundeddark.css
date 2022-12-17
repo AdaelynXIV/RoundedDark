@@ -125,6 +125,19 @@
     background: inherit;
     opacity: var(--transparency);
 }
+
+.container-3YcgdM{
+	margin-left:var(--spacing);
+	background:var(--darkgrey);
+	border-radius:var(--radius);
+}
+.divider-AZrXIA{background:var(--grey);}
+/* Loading Chat */
+.wrapper-15CKyy,
+.wrapper-3HVHpV {
+    background: transparent;
+}
+.divider-AZrXIA{background:var(--grey);}
 /* Home */
 .homeContainer-r4Hvv1{background:var(--grey);}
 .container-2Hi7Km{background:var(--darkgrey);}
