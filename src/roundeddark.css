@@ -79,7 +79,8 @@
 .rem-3kT9wc .botText-1fD6Qk{line-height:inherit;}
 .channelTextAreaDisabled-1p2fQv .scrollableContainer-15eg7h{opacity:1;}
 .folderIconWrapper-1oRIZr, .expandedFolderBackground-1kSAf6{background:var(--lightgrey);}
-
+.theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98{background:var(--darkgrey);}
+.scroller-3j5xK2{background:var(--grey);}
 
 /* Forum */
 .list-3FIpnh{background:var(--grey);}
