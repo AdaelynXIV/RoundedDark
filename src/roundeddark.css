@@ -3,17 +3,23 @@
 
 :root {
     --font-display: var(--font-primary) !important;
+    --backdrop: rgba(0,0,0,.3);
+    --settings-min-height: 450px;
+    --settings-max-height: 650px;
+    --settings-min-width: 960px;
+    --settings-max-width: 960px;
+
+    /* Overriding Discord Defaults */
+    --background-primary: var(--lightgrey);
+    --background-tertiary: var(--darkgrey);
+    --primary-dark-630: var(--grey);
+
     --scrollbar-thin-thumb: var(--darkgrey);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: var(--darkgrey);
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-thumb: var(--darkgrey);
     --scrollbar-auto-scrollbar-color-track: transparent;
-    --backdrop: rgba(0,0,0,.3);
-    --settings-min-height: 450px;
-    --settings-max-height: 650px;
-    --settings-min-width: 960px;
-    --settings-max-width: 960px;
 }
 
 
