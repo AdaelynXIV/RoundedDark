@@ -607,9 +607,29 @@ a[href="/store"]:hover:before{
     transition: all 0.5s ease-in-out;
 }
 
+.noticeWrapper-8z511t{
+    position:absolute!important;
+    padding-left:30px!important;
+    margin:var(--spacing)!important;
+    border-radius:var(--radius)!important;
+}
 
-
-
+/* Create Server */
+.container-1Lk8p7 {
+    background:var(--grey);
+    border-radius:var(--radius);
+}
+.container-1Lk8p7 .defaultColor-24IHKz{color:white;}
+.container-1Lk8p7 .container-x8Y1ix {
+    background:var(--darkgrey);
+    border-radius:var(--radius);
+}
+.container-1Lk8p7 .footerSeparator-VzAYwb {
+    background:var(--darkgrey);
+    border-radius:var(--radius);
+}
+.container-1Lk8p7 .footerButton-24QPis {background:var(--blurple);}
+.container-1Lk8p7 .contents-3ca1mk{color:white;}
 /* animation */
 
 @keyframes shine {
