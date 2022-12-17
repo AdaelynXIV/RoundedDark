@@ -82,6 +82,13 @@
 .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98{background:var(--darkgrey);}
 .scroller-3j5xK2, .userPopoutInner-1hXSeY, .userProfileModalInner-3fh3QA .userPanelOuter-xc-WYi:not(.userPanelInnerThemed-2xZFjl){background:var(--grey);}
 
+/* Nitro Gift */
+.theme-dark .root-g14mjS {
+    background:var(--grey);
+    border-radius:var(--radius);
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ, .seasonalGiftBox-2gg4e7, .seasonalGiftBoxHighlighted-3Emebb, .modalHeader-gQTY3L{border-radius:var(--radius);}
+
 /* Forum */
 .list-3FIpnh{background:var(--grey);}
 .container-2qVG6q{
