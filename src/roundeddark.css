@@ -86,6 +86,15 @@
     max-height: 78vh !important;
 }
 
+/* Permission Screen spacing fix */
+.sidebarScrollable-2mW9Ls .scroller-3_YDR2 {
+    border-radius: var(--radius);
+    background: var(--darkgrey);
+    padding-left: 11px;
+}
+.sidebarScrollable-2mW9Ls+.content-2ssVKB {margin-left:250px!important;}
+
+
 /* Nitro Gift */
 .theme-dark .root-g14mjS {
     background:var(--grey);
