@@ -81,6 +81,7 @@
 .folderIconWrapper-1oRIZr, .expandedFolderBackground-1kSAf6, .folder-241Joy{background:var(--lightgrey);}
 .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98{background:var(--darkgrey);}
 .scroller-3j5xK2, .userPopoutInner-1hXSeY, .userProfileModalInner-3fh3QA .userPanelOuter-xc-WYi:not(.userPanelInnerThemed-2xZFjl){background:var(--grey);}
+.membersWrap-3NUR2t{height:100%;} /* Member Cut-Off fix */
 
 /* Nitro Gift */
 .theme-dark .root-g14mjS {
