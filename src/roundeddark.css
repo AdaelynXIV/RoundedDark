@@ -24,10 +24,10 @@
 
 
 /* Pop-out Window-Effect */
-#app-mount{
+#app-mount, .app-2CXKsg{
     background:var(--custom-background, --blurple);
 }
-.appMount-2yBXZl, body {
+.appMount-2yBXZl, body, .app-2CXKsg {
     background-color:var(--custom-background);	
 }
 .appDevToolsWrapper-1QxdQf{
