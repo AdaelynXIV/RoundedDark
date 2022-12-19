@@ -27,6 +27,9 @@
 #app-mount{
     background:var(--custom-background, --blurple);
 }
+.appMount-2yBXZl, body {
+    background-color:var(--custom-background);	
+}
 .appDevToolsWrapper-1QxdQf{
     margin: var(--spacing);
     border-radius: var(--radius);
