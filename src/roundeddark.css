@@ -24,7 +24,9 @@
 
 
 /* Pop-out Window-Effect */
-#app-mount{background:var(--blurple);}
+#app-mount{
+    background:var(--background);
+}
 .appDevToolsWrapper-1QxdQf{
     margin: var(--spacing);
     border-radius: var(--radius);
