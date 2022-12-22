@@ -22,3 +22,12 @@
 }
 .platform-win .container-ZMc96U {padding-right:8px;}
 .channelTabs-tabContainer{max-width:85vw}
+
+.platform-win .typeWindows-2-g3UY {
+	top:0px;
+	height:25px;
+	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+}
+.platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
+    top: calc(var(--spacing) + 2px)!important;
+}   
