@@ -1,18 +1,18 @@
 /**
- * @name Rounded Dark
- * @author Adaelyn
+ * @name Crescendum
+ * @author Frontear
  * @version 1.2.1
- * @description Yet another (rounded) Dark Discord Theme.
- * @source https://github.com/AdaelynXIV/RoundedDark
+ * @description A fork of RoundedDark created by AdaelynXIV to suit my own tastes
+ * @source https://github.com/Frontear/Crescendum
 */
 
-@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url('https://frontear.github.io/Crescendum/src/crescendum.css');
 
 /* #  Plugin Fixes/Edits  # */
 /* Uncomment a plugin Import URL if you use a plugin that's listed here */
 
 /* Channel Tabs: */
-/*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
+@import url('https://frontear.github.io/Crescendum/src/compat/channeltabs.css');
 
 /* Customizable Variables */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
