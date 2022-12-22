@@ -22,7 +22,10 @@
     --scrollbar-auto-scrollbar-color-track: transparent;
 }
 
-
+/* Voice Chat */
+.controlButton-2PMNom > svg > foreignObject {
+  mask:none; /* fix other buttons not respecting the radius variable */
+}
 /* Pop-out Window-Effect */
 #app-mount, .app-2CXKsg{
     background:var(--custom-background, --blurple)!important;
