@@ -26,6 +26,7 @@
 .controlButton-2PMNom > svg > foreignObject {
   mask:none; /* fix other buttons not respecting the radius variable */
 }
+.container-2ebMPP{border-radius:var(--radius);}/* Fix Unread Container not following radius */
 /* Pop-out Window-Effect */
 #app-mount, .app-2CXKsg{
     background:var(--custom-background, --blurple)!important;
