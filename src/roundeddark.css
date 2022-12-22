@@ -515,9 +515,14 @@ a[href="/store"]:hover:before{
 .sidebar-1tnWFu {margin-top:var(--spacing);}
 .wrapper-1_HaEi {margin-top:var(--spacing);}
 .tutorialContainer-1pL9QS{padding-top:7px;}
+/* Makes toolbar a interactable bar again */
 .platform-win .typeWindows-2-g3UY {
-    top: calc(var(--spacing) + 12px);
-    left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+	top:0px;
+	height:35px;
+	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+}
+.platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
+	top: calc(var(--spacing) + 12px)!important; /* Move individually */
 }
 .platform-win .winButtonClose-3Q8ZH5 {
     border-top-right-radius: var(--radius);
