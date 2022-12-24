@@ -290,17 +290,6 @@
     border-radius:var(--radius);
     padding-top:var(--spacing);
 }
-
-/* #Folder Icon Bug as a Feature */
-.folderIconWrapper-1oRIZr{
-    background: url("https://i.imgur.com/IWDKX4z.png");
-    background-repeat:no-repeat;
-    background-blend-mode:overlay;
-    background-position:center;
-}
-.expandedFolderIconWrapper-3RwQpD,
-.closedFolderIconWrapper-3tRb2d{display:none;}
-
 /* Profile */
 .panels-3wFtMD {
     background-color:var(--grey);
