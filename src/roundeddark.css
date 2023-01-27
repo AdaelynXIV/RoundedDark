@@ -32,10 +32,10 @@
     background:var(--custom-background, --blurple)!important;
 }
 .appMount-2yBXZl, body, .app-2CXKsg {
-    background-color:var(--custom-background)!important;	
+    background-color:var(--custom-background)!important;
 }
 .appDevToolsWrapper-1QxdQf{
-    margin: var(--spacing);
+    margin: var(--outer-spacing);
     border-radius: var(--radius);
 }
 .app-2CXKsg, .container-1eFtFS{border-radius:var(--radius);}
@@ -69,7 +69,7 @@
     border-radius:var(--radius);
     padding:3px;
     display: inline-flex;
-    align-items: center; 
+    align-items: center;
 }
 .animatedContainer-2laTjx, .header-3OsQeK{
     border-radius:var(--radius) var(--radius) 0px 0px;
@@ -211,7 +211,7 @@
 .searchResult-O9NDji{background:var(--lightgrey);}
 
 /* Direct Messages */
-.selected-3veCBZ, 
+.selected-3veCBZ,
 .container-32HW5s:hover,
 .container-32HW5s, .searchBarComponent-3N7dCG,
 .anchor-1MIwyf
@@ -222,7 +222,7 @@
     padding:10px;
     text-align:center!important;
     display: inline-flex;
-    align-items: center; 
+    align-items: center;
 }
 .messageGroupCozy-3v_RqN{background-color:var(--lightgrey)}
 .messagesPopout-eVzQcI,
@@ -253,7 +253,7 @@
     padding:4px;
     background-color:var(--lightgrey);
 }
-.form-3gdLxP:before, 
+.form-3gdLxP:before,
 .theme-dark .children-3xh0VB:after
 {display:none;}
 .channelTextArea-1FufC0{background-color:transparent;}
@@ -286,7 +286,7 @@
     margin: var(--spacing);
 }
 .scroller-3X7KbA {
-    background:var(--grey); 
+    background:var(--grey);
     border-radius:var(--radius);
     padding-top:var(--spacing);
 }
@@ -358,7 +358,7 @@
 }
 
 /* Modal Edits */
-.quickswitcher-pKcM9U, 
+.quickswitcher-pKcM9U,
 .input-3r5zZY,
 .result-u66Ywh[aria-selected=true],
 .scroller-2qwVWY
@@ -385,7 +385,7 @@
 .background-3d_SjE, .fieldList-in8WkP,
 .root-g14mjS
 {background:var(--grey);}
-.button-f2h6uQ, 
+.button-f2h6uQ,
 .accountProfileCard-lbN7n-,
 .item-3XjbnG:hover,
 .swatch-efj8wq,
@@ -398,10 +398,10 @@
 .container-20TyK0,
 .limitedBackground-2ogRHb,
 .limitedFeatureBorder-hpm0GQ,
-.root-g14mjS, 
-.file-input, 
-.optionBox-1UOevl, 
-.root-g14mjS, 
+.root-g14mjS,
+.file-input,
+.optionBox-1UOevl,
+.root-g14mjS,
 .categoryFade-3RRG67,
 .result-pzZrwj > img, .result-pzZrwj > .gif-2kTiNB,
 .searchBar-3aIzc-,
@@ -442,7 +442,7 @@ a[href="/store"]:before{
     border-radius:var(--radius);
     color:white;
     opacity:0;
-    transition: all 1s ease-in-out;  
+    transition: all 1s ease-in-out;
 }
 a[href="/store"]:hover:before{
     opacity:1;
@@ -470,7 +470,7 @@ a[href="/store"]:hover:before{
     padding-bottom:3px!important;
 }
 .channelTabs-tab{border-radius:var(--radius)!important;}
-.channelTabs-newTab:hover, 
+.channelTabs-newTab:hover,
 .channelTabs-tabNavLeft:hover,
 .channelTabs-tabNavRight:hover
 {border-radius:var(--radius)!important;}
@@ -493,7 +493,7 @@ a[href="/store"]:hover:before{
     margin-right:10px;
     margin-top:5px;
     display: inline-flex;
-   align-items: center; 
+   align-items: center;
 }
 .channelTabs-settingsIcon{width:20px;}
 

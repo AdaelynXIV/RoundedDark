@@ -6,7 +6,7 @@
  * @source https://github.com/AdaelynXIV/RoundedDark
 */
 
-@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url('https://ItsdMeSoFYou.github.io/RoundedDark/src/roundeddark.css');
 
 /* #  Plugin Fixes/Edits  # */
 /* Uncomment a plugin Import URL if you use a plugin that's listed here */
@@ -30,6 +30,7 @@
 
     --radius: 16px;
     --spacing: 11px;
+    --outer-spacing: 0px;
 }
 
 /* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
