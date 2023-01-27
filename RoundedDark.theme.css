@@ -6,7 +6,7 @@
  * @source https://github.com/AdaelynXIV/RoundedDark
 */
 
-@import url('https://ItsdMeSoFYou.github.io/RoundedDark/src/roundeddark.css');
+@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
 
 /* #  Plugin Fixes/Edits  # */
 /* Uncomment a plugin Import URL if you use a plugin that's listed here */
@@ -29,7 +29,9 @@
     --darkgrey-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(23,24,26,1) 100%);
 
     --radius: 16px;
+    /*Control of general spacing*/
     --spacing: 11px;
+    /*Control size of outer Border*/
     --outer-spacing: 0px;
 }
 
