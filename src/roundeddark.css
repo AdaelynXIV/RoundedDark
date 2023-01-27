@@ -493,7 +493,7 @@ a[href="/store"]:hover:before{
     margin-right:10px;
     margin-top:5px;
     display: inline-flex;
-   align-items: center;
+   align-items: center; 
 }
 .channelTabs-settingsIcon{width:20px;}
 
