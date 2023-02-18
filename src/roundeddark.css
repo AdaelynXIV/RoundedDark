@@ -662,22 +662,94 @@ a[href="/store"]:hover:before{
 }
 
 /* Create Server */
-.container-1Lk8p7 {
-    background:var(--grey);
-    border-radius:var(--radius);
+.rowContainer-3t7486 {
+	border-radius: var(--radius);
+	background-color: var(--blurple);
+	color: white;
 }
-.container-1Lk8p7 .defaultColor-24IHKz{color:white;}
-.container-1Lk8p7 .container-x8Y1ix {
-    background:var(--darkgrey);
-    border-radius:var(--radius);
+.rowContainer-3t7486:hover {
+	background-color: var(--blurple);
+	color: white;
 }
-.container-1Lk8p7 .footerSeparator-VzAYwb {
-    background:var(--darkgrey);
-    border-radius:var(--radius);
+.keyboard-mode .rowContainer-3t7486:focus {
+	background-color: var(--blurple);
+	color: white;
 }
-.container-1Lk8p7 .footerButton-24QPis {background:var(--blurple);}
-.container-1Lk8p7 .contents-3ca1mk{color:white;}
-.closedFolderIconWrapper-3tRb2d .icon-1zKOXL{border:none!important;}
+.rowContainer-3t7486:active {
+	background-color: var(--blurple);
+	color: white;
+}
+
+/* Join a Server */
+.theme-light .focusLock-2tveLW .rowContainer-3t7486 .defaultColor-1EVLSt {
+	color: var(--darkgrey);
+	/* background-color: var(--grey);
+	padding: var(--grey); */
+}
+
+.sampleLink-5BWNy9,
+.focusLock-2tveLW {
+	--header-secondary: #cfcfcf;
+	--text-muted: #cfcfcf;
+
+	color: #cfcfcf;
+}
+.content-2hZxGK .h5-2feg8J {
+	color: #fafafa;
+}
+
+/*general*/
+.focusLock-2tveLW .inputDefault-Ciwd-S {
+	border-radius: var(--radius) !important;
+	padding: 4px;
+	background-color: var(--lightgrey);
+	color: white;
+}
+.focusLock-2tveLW .channelTextArea-1FufC0 {
+	background-color: transparent;
+}
+.inputWrapper-2K8ds1 {
+	background-color: var(--transparency);
+}
+.focusLock-2tveLW .inputDefault-Ciwd-S::placeholder {
+	color: #888888;
+}
+
+.focusLock-2tveLW .defaultColor-1EVLSt {
+	color: white;
+}
+
+.contents-3NembX,
+.content-2hZxGK .defaultColor-1EVLSt {
+	color: #fafafa;
+}
+
+.focusLock-2tveLW {
+	background: var(--grey);
+	border-radius: var(--radius);
+}
+
+.focusLock-2tveLW .container-x8Y1ix {
+	background: var(--darkgrey);
+	border-radius: var(--radius);
+}
+
+.focusLock-2tveLW .footerSeparator-VzAYwb {
+	background: var(--darkgrey);
+	border-radius: var(--radius);
+}
+
+.focusLock-2tveLW .footerButton-24QPis,
+.focusLock-2tveLW .lookFilled-1H2Jvj {
+	background: var(--blurple);
+	border-radius: var(--radius);
+}
+
+/* Folders */
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL {
+	border: none !important;
+}
+
 /* animation */
 
 @keyframes shine {
