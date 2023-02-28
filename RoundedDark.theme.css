@@ -33,6 +33,9 @@
     --spacing: 11px;
     /*Control size of outer Border*/
     --outer-spacing: 0px;
+    /*remove annoying info box when hovering over mute icon, images in private chat, etc*/
+    /*if you want them removed, uncomment --info-box: none;*/
+    /*--info-box: none;*/
 }
 
 /* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
