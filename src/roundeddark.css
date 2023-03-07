@@ -4,10 +4,10 @@
 :root {
     --font-display: var(--font-primary) !important;
     --backdrop: rgba(0,0,0,.3);
-    --settings-min-height: 450px;
-    --settings-max-height: 650px;
-    --settings-min-width: 960px;
-    --settings-max-width: 960px;
+
+    /* Settings Modal */
+    --settings-modal-width: 1000px;
+    --settings-modal-height: 90vh;
 
     /* Overriding Discord Defaults */
     --background-primary: var(--lightgrey);
@@ -568,20 +568,21 @@ a[href="/store"]:hover:before{
 
 /*Settings */
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .standardSidebarView-E9Pc3j {
-    animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: var(--border-radius);
-    background: var(--background);
-    position: relative !important;
-    overflow: hidden;
-    box-shadow: var(--elevation-2);
-    width: 100%;
-    min-width: var(--settings-min-width);
-    max-width: var(--settings-max-width);
-    height: 65vh;
-    min-height: var(--settings-min-height);
-    max-height: var(--settings-max-height);
-    padding-top: 50px;
-    top: 0;
+    border-radius: var(--border-radius) !important;
+    background: var(--background) !important;
+    box-shadow: var(--elevation-2) !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: var(--settings-modal-width) !important;
+    height: var(--settings-modal-height) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
 }
 
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
