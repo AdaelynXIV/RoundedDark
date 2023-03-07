@@ -40,7 +40,7 @@
     /* favorites added */
     --tb-top: calc(var(--tb-top) + 10px);
 	--tb-pos: calc(var(--tb-pos) - 5px);
-	--win-btn: calc(var(--win-btn) - 3px);
+	--win-btn: calc(var(--win-btn) + 12px);
 }
 
 /* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
