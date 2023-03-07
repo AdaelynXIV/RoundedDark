@@ -8,6 +8,11 @@
     --settings-max-height: 650px;
     --settings-min-width: 960px;
     --settings-max-width: 960px;
+	
+    /* Titlebar + ChannelTabs */
+    --tb-top: 66px;
+    --tb-pos: 10px;
+    --win-btn: -3px;
 
     /* Overriding Discord Defaults */
     --background-primary: var(--lightgrey);
@@ -507,7 +512,7 @@ a[href="/store"]:hover:before{
 /* Makes toolbar a interactable bar again */
 .platform-win .typeWindows-2-g3UY {
 	top:0px;
-	height:35px;
+	height: 10px;
 	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
 }
 .platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
@@ -517,6 +522,19 @@ a[href="/store"]:hover:before{
     border-top-right-radius: var(--radius);
 }
 .carouselModal-1eUFoq{background:transparent!important;}
+
+/* Makes titlebar works with ChannelTabs*/
+.platform-win .typeWindows-2-g3UY {
+	top: var(--tb-top);
+}
+
+.layers-OrUESM {
+	margin: var(--tb-pos);
+}
+
+.winButton-3UMjdg {
+	margin-top: var(--win-btn);
+}
 
 /* Settings Page */
 :root {

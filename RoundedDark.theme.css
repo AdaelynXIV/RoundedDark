@@ -30,6 +30,17 @@
 
     --radius: 16px;
     --spacing: 11px;
+    
+    /* Do you use ChannelTabs plugin? If you don't use favorites option, comment uncommented and uncomment commented. */
+    /* no favorites added */
+/* 	--tb-top: 66px; */
+/* 	--tb-pos: 10px; */
+/* 	--win-btn: -3px; */
+
+    /* favorites added */
+    --tb-top: calc(var(--tb-top) + 10px);
+	--tb-pos: calc(var(--tb-pos) - 5px);
+	--win-btn: calc(var(--win-btn) + 12px);
 }
 
 /* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
