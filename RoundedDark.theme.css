@@ -53,3 +53,37 @@
     transform: scale(1.3335);
     filter: brightness(1.5) saturate(1.5);
 }
+
+.platform-win .typeWindows-2-g3UY {
+    top: 13px;
+    left: -11px;
+}
+#channelTabs-container{padding:7px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);}
+.wrapper-1_HaEi{margin-top:var(--spacing);}
+.app-2CXKsg{background:var(--blurple);}
+#channelTabs-container{
+    border-radius:var(--radius);
+    margin-bottom:calc(var(--spacing) - 2px);
+    padding:6px!important;
+}
+#channelTabs-settingsMenu{
+    margin-right:15px!important;
+    right: 110px!important;
+    top: 6px!important;
+}
+.platform-win .winButton-3UMjdg {
+    border-radius:var(--radius);
+    height:40px!important;
+}
+.platform-win .container-ZMc96U {padding-right:8px;}
+.channelTabs-tabContainer{max-width:85vw}
+
+.platform-win .typeWindows-2-g3UY {
+	top:0px!important;
+	height:25px!important;
+	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+}
+.platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
+    top: calc(var(--spacing) + 2px)!important;
+}   
